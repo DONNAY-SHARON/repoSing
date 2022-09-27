@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require("path");
 const readline = require("readline-sync");
-const port = 3000
+const port = 1743
 const { Pool } = require("pg");
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
