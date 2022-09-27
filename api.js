@@ -10,7 +10,6 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));
 var player = require('play-sound')(opts = {})
 
- 
 
 app.set("view engine", "ejs");
 app.set("views","./views"); 
