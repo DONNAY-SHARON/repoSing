@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DONNAY-SHARON/foot.git"
+    "url": "git+https://github.com/DONNAY-SHARON/repoSing.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DONNAY-SHARON/foot/issues"
+    "url": "https://github.com/DONNAY-SHARON/repoSing/issues"
   },
-  "homepage": "https://github.com/DONNAY-SHARON/foot#readme"
+  "homepage": "https://github.com/DONNAY-SHARON/repoSing#readme"
 }
