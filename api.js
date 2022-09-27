@@ -68,7 +68,7 @@ app.get("/", (req, res) => {
 });
 
 
-
+//l'insertion des données
 
 app.post("/", async (req, res) => {
   let om = req.body.om; 
@@ -86,89 +86,29 @@ app.post("/", async (req, res) => {
     
   });
   
-  res.redirect("/livres");
-});
-// GET /about
-app.get("/about", (req, res) => {
-  res.render("about");
+  res.redirect("/fin");
 });
 
-// GET /livres
-app.get("/livres", (req, res) => {
+
+// GET /fin
+app.get("/fin", (req, res) => {
   const sql = "SELECT * FROM match ORDER BY ID ";
   pool.query(sql, [], (err, result) => {
     if (err) {
       return console.error(err.message);
     }
-    res.render("livres", { model: result.rows });
+    res.render("fin", { model: result.rows });
   });
 
 
 });
 
-// GET /livres
-app.get("/livres", (req, res) => {
-  const sql = "SELECT * FROM match WHERE ID=3";
-  pool.query(sql, [], (err, result) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    res.render("livres", { voir: result.rows });
-  });
+
+
+// GET /fin
+app.get("/fin", (req, res) => {
+  res.render("fin", { model: {} });
 });
 
 
-// GET /create
-app.get("/livres", (req, res) => {
-  res.render("livres", { model: {} });
-});
 
-
-// GET /edit/5
-app.get("/edit/:id", (req, res) => {
-  const id = req.params.id;
-  const sql = "SELECT * FROM match WHERE ID = $1";
-  pool.query(sql, [id], (err, result) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    res.render("edit", { model: result.rows[0] });
-  });
-});
-
-// POST /edit/5
-app.post("/livres/:id", (req, res) => {
-  const id = req.params.id;
-  const book = [req.body.gagnant, req.body.psg, req.body.om, id];
-  const sql = "UPDATE match SET GAGNANT = $1, PSG = $2, OM = $3 WHERE (ID = $4)";
-  pool.query(sql, book, (err, result) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    res.redirect("/livres");
-  });
-});
-
-// GET /delete/5
-app.get("/livres/7", (req, res) => {
-  const id = req.params.id;
-  const sql = "SELECT * FROM match WHERE ID = 7";
-  pool.query(sql, [id], (err, result) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    res.render("livres", { model: result.rows[0] });
-  });
-});
-
-// POST /delete/5
-app.post("/delete/:id", (req, res) => {
-  const id = req.params.id;
-  const sql = "DELETE FROM match WHERE ID = ";
-  pool.query(sql, [id], (err, result) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    res.redirect("/livres");
-  });
-});
