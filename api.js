@@ -56,16 +56,16 @@ pool.query(sql_create, [], (err, result) => {
   });
 });
 
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
 // GET /
 app.get("/", (req, res) => {
   
   res.render("index");
  
 });
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-
 
 
 //l'insertion des données
