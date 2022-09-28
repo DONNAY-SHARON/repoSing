@@ -1,0 +1,1845 @@
+
+#gagne{
+	background-color: transparent;
+	border:0;
+}
+#number{
+	width: 15px;
+	background-color: black;
+	color: white;
+	border : 0;
+
+}
+
+#number2{
+	width: 15px;
+	background-color: black;
+	color: white;
+	border : 0;
+
+}
+
+#tir{width: 35px;
+background-color: transparent;
+text-align: center;
+color: #DFF2FF;
+border :0;
+font-size:20px;
+     
+}
+@media screen and (min-width: 1290px) and (max-width: 1500px)
+{
+    /* Rédigez vos propriétés CSS ici */
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("360_F_210894329_h0VbzAB4kFAdqpyb2OQJ9RAGle4NKghr.jpg");
+}
+#table1{
+	position: absolute;
+	top:40px;
+	left: 50px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	top: 40px;right: 105px;
+	color: #FFFF05;
+}
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 20px;
+	width: 150px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 1s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+}
+
+@media screen and (max-width: 1320px) and (min-width: 1290px){
+#terrain{height: 560px;
+width: 900px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 425px;
+}
+#table3{
+	position: absolute;
+	top: 385px;right: 810px;
+}
+#tir{
+	position: absolute;
+	top: 415px;right: 820px;
+}
+#table4{
+	position: absolute;
+	top: 260px;right: 770px;
+	color: red;
+}
+#rend{
+	position: absolute;
+	top: 140px;right: 45px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 32px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: #FFFF05;
+	border : 0;
+}
+}
+
+
+@media screen and (max-width: 1500px) and (min-width: 1321px){
+#terrain{height: 560px;
+width: 920px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 445px;
+
+}
+#table3{
+	position: absolute;
+	top: 385px;right: 860px;
+}
+#tir{
+	position: absolute;
+	top: 415px;right: 870px;
+}
+#table4{
+	position: absolute;
+	top: 280px;right: 820px;
+	color: red;
+}
+#rend{
+	position: absolute;
+	top: 140px;right: 45px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 32px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: #FFFF05;
+	border : 0;
+}
+}
+
+
+@media screen and (min-width: 1100px) and (max-width: 1291px)
+{
+    /* Rédigez vos propriétés CSS ici */
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("360_F_210894329_h0VbzAB4kFAdqpyb2OQJ9RAGle4NKghr.jpg");
+}
+#table1{
+	position: absolute;
+	top:40px;
+	left: 50px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	top: 40px;right: 105px;
+	color: blue;
+}
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 20px;
+	width: 150px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+}
+
+@media screen and (max-width: 1170px) and (min-width: 1100px){
+#terrain{height: 560px;
+width: 865px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 305px;
+}
+#table3{
+	position: absolute;
+	top: 385px;right: 670px;
+}
+#tir{
+	position: absolute;
+	top: 415px;right: 680px;
+}
+#table4{
+	position: absolute;
+	top: 280px;right: 625px;
+	color: red;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 22px;
+	text-align: center;
+	color: black;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: #FFFF05;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 100px;left: 50px;
+}
+#table6{
+	position: absolute;
+	top: 40px;right: 15px;
+	color: #FFFF05;
+}
+
+}
+
+@media screen and (max-width: 1220px) and (min-width: 1171px){
+#terrain{height: 560px;
+width: 890px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 325px;
+}
+#table3{
+	position: absolute;
+	top: 385px;right: 700px;
+}
+#tir{
+	position: absolute;
+	top: 415px;right: 715px;
+}
+#table4{
+	position: absolute;
+	top: 280px;right: 660px;
+	color: red;
+}
+#table6{
+	position: absolute;
+	top: 40px;right: 15px;
+	color: #FFFF05;
+}
+#rend{
+	position: absolute;
+	top: 140px;right: 5px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 25px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: #FFFF05;
+	border : 0;
+}
+}
+
+@media screen and (max-width: 1291px) and (min-width: 1221px){
+#terrain{height: 560px;
+width: 920px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 365px;
+
+}
+#table3{
+	position: absolute;
+	top: 385px;right: 750px;
+}
+#tir{
+	position: absolute;
+	top: 415px;right: 762px;
+}
+#table4{
+	position: absolute;
+	top: 280px;right: 700px;
+	color: red;
+}
+#table6{
+	position: absolute;
+	top: 40px;right: 15px;
+	color: #FFFF05;
+}
+#rend{
+	position: absolute;
+	top: 140px;right: 5px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 27px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: #FFFF05;
+	border : 0;
+}
+}
+
+@media screen and (max-width: 1099px) and (min-width: 992px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("gazon-vert.jpg");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 50px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	color: white;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+
+@media screen and (max-width: 1099px) and (min-width: 1046px){
+#terrain{height: 400px;
+width: 970px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 120px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 495px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 507px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 455px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+@media screen and (max-width: 1045px) and (min-width: 992px){
+#terrain{height: 400px;
+width: 960px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 80px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 495px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 505px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 455px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 991px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("gazon-vert.jpg");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 50px;
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 80px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	color: white;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 991px){
+#terrain{height: 400px;
+width: 940px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 495px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 507px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 455px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+
+@media screen and (max-width: 990px) and (min-width: 881px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("gazon-vert.jpg");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 50px;
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 80px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	color: white;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+
+@media screen and (max-width: 930px) and (min-width: 881px){
+#terrain{height: 400px;
+width: 850px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 445px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 455px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 405px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+@media screen and (max-width: 990px) and (min-width: 931px){
+#terrain{height: 400px;
+width: 910px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 445px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 458px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 405px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+@media screen and (max-width: 880px) and (min-width: 801px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("gazon-vert.jpg");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 50px;
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 90px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	color: white;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+
+@media screen and (max-width: 840px) and (min-width: 801px){
+#terrain{height: 400px;
+width: 750px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 400px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 412px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 360px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+@media screen and (max-width: 880px) and (min-width: 839px){
+#terrain{height: 400px;
+width: 790px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 420px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 430px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 380px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+@media screen and (max-width: 800px) and (min-width: 790px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("gazon-vert.jpg");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 20px;
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 200px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 460px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 472px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 420px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	color: white;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+#terrain{height: 400px;
+width: 600px;
+box-shadow: 10px 17px 14px black;
+
+}
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 789px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("gazon-vert.jpg");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 20px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 80px;
+}
+#table6{
+	position: absolute;
+	color: white;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 49px;
+	width: 43px;
+	background:black;
+}
+
+#logo3{
+	height: 35px;
+	width: 35px;
+	background:black;
+
+}
+#logo4{
+	height: 45px;
+	width: 30px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+@media screen and (max-width: 789px) and (min-width: 744px){
+#terrain{height: 400px;
+width: 830px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 50px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 350px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 363px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 300px;
+}
+#terrain{height: 400px;
+width: 735px;
+box-shadow: 10px 17px 14px black;
+
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+@media screen and (max-width: 745px) and (min-width: 700px){
+#terrain{height: 400px;
+width: 830px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 50px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 350px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 362px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 300px;
+}
+#terrain{height: 400px;
+width: 685px;
+box-shadow: 10px 17px 14px black;
+
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: white;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("fond.png");
+}
+#table1{
+	position: absolute;
+	top:30px;
+	left: 20px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 255px;
+	height: 100px;
+	width: 50px;
+}
+#table6{
+	position: absolute;
+	color: #6600FF;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 30px;
+	width: 33px;
+	background:black;
+}
+
+#logo3{
+	height: 25px;
+	width: 25px;
+	background:black;
+
+}
+#logo4{
+	height: 35px;
+	width: 20px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+@media screen and (max-width: 647px) and (min-width: 600px){
+#terrain{height: 400px;
+width: 590px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 50px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 290px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 300px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 250px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	background-color: transparent;
+	font-size: 30px;
+	color: black;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+@media screen and (max-width: 699px) and (min-width: 648px){
+#terrain{height: 400px;
+width: 660px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 40px;right: 30px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 310px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 322px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 270px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	background-color: transparent;
+	font-size: 30px;
+	color: black;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+
+body{font-family: calibri;
+background-color: white;
+background-image: url("fond.png");
+}
+#table1{
+	position: absolute;
+	top:100px;
+	left: 20px;
+}
+
+#table5{
+	position: absolute;
+	top: 300px;right: 255px;
+	height: 100px;
+	width: 50px;
+}
+#table6{
+	position: absolute;
+	color: #6600FF;
+}
+
+.conteneur1{
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	height: 50px;
+	width: 200px;
+	top: 200px;
+	border-radius: 5px;
+       
+}
+.bloc{
+	display: flex;
+}
+
+.bloc2{
+	display: flex;
+
+}
+#logo{
+	height: 45px;
+	width: 40px;
+	background:black;
+}
+#logo2{
+	height: 30px;
+	width: 33px;
+	background:black;
+}
+
+#logo3{
+	height: 25px;
+	width: 25px;
+	background:black;
+
+}
+#logo4{
+	height: 35px;
+	width: 20px;
+	background:black;
+
+}
+
+.ligue{
+	height: 1px;
+	width: 100px;
+}
+.tab{
+	top:40px;
+}
+#score{
+	background:#CECECE;
+    border-radius: 4px;
+    border:0;
+    color: white;
+    box-shadow: 1px 3px 0px #606060;
+}
+     #test {
+          display: block;
+          width: 60px; height: 60px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 3s linear 0s infinite;
+          }
+     #test:hover{
+          animation-play-state: paused;
+          }
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+}
+@media screen and (max-width: 599px) and (min-width: 400px){
+#terrain{height: 320px;
+width: 465px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 100px;right: 60px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 290px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 300px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 250px;
+}
+#resultat{
+	height: 50px;
+	width: 315px;
+	background-color: transparent;
+	font-size: 5px;
+	text-align: center;
+	color: red;
+	border : 0;
+}
+#resultat2{
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	background-color: transparent;
+	font-size: 26px;
+	color: black;
+	border : 0;
+}
+#rend{
+	position: absolute;
+	bottom: 10px;right: 5px;
+}
+}
+@media screen and (max-width: 399px) and (min-width: 310px){
+#terrain{height: 320px;
+width: 465px;
+box-shadow: 10px 17px 14px black;
+
+}
+#table2{
+	position: absolute;
+	top: 100px;right: 60px;
+}
+#table3{
+	position: absolute;
+	top: 280px;right: 290px;
+}
+#tir{
+	position: absolute;
+	top: 310px;right: 300px;
+}
+#table4{
+	position: absolute;
+	top: 180px;right: 250px;
+}
+
+}
+
+/////////////////////////////////
+
