@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- Lier le ficher à css comme demander -->
+  <link rel="stylesheet" type="text/css" href="fin.css">
+  
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale">
+
+
+</head>
+<body onLoad="initClock()">
+
+  <table class="tout"><tr><td>
+<br/>
+<div ><img id="terrain" src="stades.png"></div>
+
+<table class="table" border="0" id="table_1" >
+    <tr >
+        <td>
+   <div align="center"> 
+    <img class="ligue" src="ligue1.png">
+</div>
+<div class="conteneur1"> 
+            <div class="" ><img id="logo" src="om.png"> </div>
+            <div class=""><font color="white"><Br />OM  </font></div>
+             <div class="" align=""><font color="white"><Br /><input type="text" id="omm" name="om" > </font></div>
+             <div class=""><font color="white"><Br />: </font></div>
+             <div class="" align=""><font color="white" ><Br /><input type="text" id="p2" name="psg" > </font></div>
+              <div class=""><font color="white"><Br />PSG </font></div>  
+            <div class=""><img id="logo" src="psg.png"></div>
+
+        </div>
+        <div align="center"> <button id="score"> 2:00 <div id=""></button></div></div>
+        </td>
+        </tr>
+        </table></td></tr>
+
+<div id="table_4">
+    <img id="test"  src="ballon.png"></a>
+    
+</div>
+<table id="table_3">
+    <tr>
+        <td>
+           <div align="center"><font size="3" color="#DFF2FF" id="myInput">
+
+        
+<span id="titre">  
+    Victoire de / <input type="text" id="p1" name="gagnant">
+      </span>
+      
+</font></div>
+          
+        </td>
+    </tr>
+     <tr>
+        <td><div align="center">
+          <form action="/livres" method="get">
+           <button id="Recommencer"><a href="/"> Recommencer</a></button>
+           </form></div>
+        </td>
+    </tr>
+</table>
+
+
+       
+
+
+ <div id="div2" style="visibility: hidden">
+   <table class="tablescore" border="1" cellspacing="0" >
+    <thead>
+      <tr>
+        <th>Score</th>
+        <th>PSG</th>
+        <th>OM</th>
+        <th>Vainqueur</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <% for (const book of model) { %>
+        <tr>
+          <td class="td1"><%= book.psg %> - <%= book.om %></td>
+          <td class="td1"><%= book.psg %></td>
+          <td class="td1"><%= book.om %></td>
+          <td class="td1"><%= book.gagnant %></td>
+         
+        </tr>
+      <% } %>
+       <tr>
+          <td class="td1" id="v1"><input type="text" id="c2" name="om" > - <input type="text" id="c3" name="om" ></td>
+          <td class="td1" id="v1"><input type="text" id="c4" name="om" ></td>
+          <td class="td1" id="v1"><input type="text" id="c5" name="om" ></td>
+          <td class="td1" id="v1"><input type="text" id="c1" name="om" ></td>
+         
+        </tr>
+    </tbody>
+  </table>
+ 
+<input type="text" id="omm" name="om" >
+</div>
+<div>
+<img src="gif.gif" id="gif">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+ 
