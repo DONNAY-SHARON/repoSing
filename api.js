@@ -10,6 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));
 var player = require('play-sound')(opts = {})
 
+
 app.set("view engine", "ejs");
 app.set("views","./views"); 
 const pool = new Pool({
@@ -55,16 +56,16 @@ pool.query(sql_create, [], (err, result) => {
   });
 });
 
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
 // GET /
 app.get("/", (req, res) => {
   
   res.render("index");
  
 });
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
 
 
 //l'insertion des données
@@ -101,7 +102,8 @@ app.get("/fin", (req, res) => {
 
 
 });
-
+//The 404 Route (ALWAYS Keep this as the last route) 
+app.get('*', function(req, res){ res.send('what???', 404); });
 
 
 // GET /fin
