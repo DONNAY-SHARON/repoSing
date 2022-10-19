@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<!-- Lier le ficher à css comme demander -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale">
+
+</head>
+<body onLoad="initClock()">
+<br/>
+<div ><img id="terrain" src="stades.png" ></div>
+
+<table class="table" border="0" id="table1" >
+        <td>
+   <div align="center"> 
+    <img class="ligue" src="ligue1.png">
+</div><form method="GET" action="/fin">
+<div class="conteneur1" >
+<!-- Partie score -->
+            <div class="" ><img id="logo" src="om.png"> </div>
+            <div class=""><font color="white"><Br />OM  </font></div>
+             <div class="" align=""><font color="white"><Br /><input type="text" id="number" name="om" value="0"> </font></div>
+             <div class=""><font color="white"><Br />: </font></div>
+             <div class="" align=""><font color="white" ><Br /><input type="text" name="psg" id="number2" value="0"> </font></div>
+              <div class=""><font color="white"><Br />PSG </font></div>  
+            <div class=""><img id="logo" src="psg.png"></div>
+
+        </div>
+        <div align="center">  <button id="score"> <div id="timer"></button></div></div>
+        </td>
+        </tr>
+        </table><input type="text" id="gagne"  name="gagnant" ><input type="submit"  id="send" value="Abandonner"/></form>
+<table border="0" bgcolor="black" id="table2">
+    <tr>
+        <td>
+            <div class="bloc">
+            <div><img id="logo4" src="om.png"></div>
+            <div><br/><font color="white" size="2">&nbsp&nbsp Olympique de Marseille<font>
+        </div></div>
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <div class="bloc2" align="center">
+            <div><img id="logo3" src="trophet.png"></div>
+            <div>&nbsp&nbsp&nbsp&nbsp<img id="logo3" src="trophet.png"></div>
+            <div>&nbsp&nbsp&nbsp&nbsp<img id="logo3" src="trophet.png"></div>
+            <div><font color="#DFFF00" size="5"> &nbsp <b>+8&nbsp&nbsp</b></font>
+        </div></div>
+        </td>
+    </tr>
+     <tr>
+        <td>
+            <div class="bloc">
+            <div><img id="logo2" src="psg.png"></div>
+            <div><br/>&nbsp<font color="white" size="2"> Paris saint germain<font>
+        </div></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="bloc">
+            <img id="logo3" src="trophet.png">
+            </div>
+        </td>
+    </tr>
+</table>
+<script>
+
+
+</script>
+<div id="table4">
+  <a href="javascript:showPage('contact.html', '')" onclick="document.getElementById('titre').innerHTML=document.getElementById('jauge_tir2').value;"
+  >  <img onclick="check()" id="test"  src="ballon.png"></a>
+    
+</div>
+<table id="table3">
+    <tr>
+        <td>
+           <div align="center"> Random </div>
+        </td>
+    </tr>
+     <tr>
+        <td>
+           <div align="center"><font size="5" color="#DFF2FF" id="myInput">
+
+         <script type="text/javascript">
+            //jauge de tir
+        
+var min=1; 
+var max=1000;  
+var jauge_tir = Math.floor(Math.random() * (max - min)) + min; 
+              if(jauge_tir%2 == 0)
+              {
+                     
+                     
+                  
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+  
+
+              }
+              else
+              {
+                     
+                     var choix = "impair";
+                     var value = parseInt(document.getElementById('number2').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number2').value = value;
+    
+
+              }
+             
+</script>
+<span id="titre">  
+    
+         <script type="text/javascript">
+
+            document.write(jauge_tir)
+         </script></span>
+      
+</font></div>
+        </td>
+    </tr>
+</table><input type="text" id="tir" size="9" value=""/>
+
+<div id="table5">
+
+    <img src="gif.gif">
+</div>
+
+<table><tr><td>
+<div align="center" id="table6"><font id="ms" color="" size="9"><b>Millisecondes
+  <div id="timedate">
+
+  </div> </div></b></font>
+</td></tr></table>
+
+ <div>
+    <object data="leagues.mp3" type="audio/x-mpeg" width="0" height="0" >
+        <param name="src" value="leagues.mp3" />
+        <param name="controls" value="console" />
+        <param name="autostart" value="true" />
+        <param name="loop" value="false" />
+        <script type="text/javascript" >
+            <!--
+                document.write('<embed src="NOM_DE_LA_MUSIQUE.mp3" width="0" height="0" controls="console" loop="false" autostart="true" ></embed>');
+            //-->
+        </script>
+    </object>
+</div>
+ <script type="text/javascript">
+
+  var obj = 'window.location.replace("/fin");';
+setTimeout(obj,1200000)</script>
+
+<div id="rend">
+  </br />
+<input type="text" id="resultat" value="" /></br />
+<input type="text" id="resultat2" value="" />
+</div>
+
+<div>
+    <object data="leagues.mp3" type="audio/x-mpeg" width="0" height="0" >
+        <param name="src" value="leagues.mp3" />
+        <param name="controls" value="console" />
+        <param name="autostart" value="true" />
+        <param name="loop" value="false" />
+        <script type="text/javascript" >
+            <!--
+                document.write('<embed src="leagues.mp3" width="0" height="0" controls="console" loop="false" autostart="true" ></embed>');
+            //-->
+        </script>
+    </object>
+</div>
+<object width="200" height="20">
+ 
+<param name="movie" value="dewplayer.swf?mp3=leagues.mp3">
+</param>
+ 
+ 
+ 
+<embed src="dewplayer.swf?mp3=leagues.mp3"
+type="application/x-shockwave-flash"
+width="200" height="20"
+flashVars="autoStart=1">
+</embed>
+ 
+</object>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
