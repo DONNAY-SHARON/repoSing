@@ -1,5 +1,2 @@
-.node_modules
-.idea
-.public
-.views
-api.js
+node_modules
+package-lock.json
