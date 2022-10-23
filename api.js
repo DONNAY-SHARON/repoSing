@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require("path");
 const readline = require("readline-sync");
+const server = require('http').createServer();
 const port = 1743
 const { Pool } = require("pg");
 const https = require('https');
@@ -58,7 +59,7 @@ pool.query(sql_create, [], (err, result) => {
 });
 
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 // GET /
