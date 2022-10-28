@@ -26,9 +26,12 @@
     "url": "git+https://github.com/DONNAY-SHARON/repoSing.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DONNAY-SHARON/repoSing/issues"
   },
   "homepage": "https://github.com/DONNAY-SHARON/repoSing#readme"
+},
+"publishConfig": {
+  "registry": "https://npm.pkg.github.com"
 }
